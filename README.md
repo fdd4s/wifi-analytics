@@ -27,11 +27,11 @@ Just run make
 First delete wifi interface created by operating system
 
 e.g in openwrt: 
-	wifi down
+	wifi down  
 	iw wlan0 del
 
 Then create a wifi interface in monitor mode:
-	iw phy0 interface add wlan0 type monitor
+	iw phy0 interface add wlan0 type monitor  
 	airmon-ng start wlan0
 
 ## Running
