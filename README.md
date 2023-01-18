@@ -10,9 +10,9 @@ It needs a wifi device supporting monitor mode in aircrack-ng over linux
 
 ## Successfully tested in the next platforms
 
-- OpenWRT Barrier Breaker over Router TP-Link MR-3220 / MR-3420. Around 35$ hardware total cost and 5-10W energy consumption
-- ARMBian over Android Box X88Pro10 and TP-Link TL-WN722N USB dongle. Around 40$ hardware total cost and 5-10W energy consumption
-- Ubuntu over PC and TP-Link TL-WN722N USB dongle
+- OpenWRT Barrier Breaker over Router TP-Link MR-3220 / MR-3420. Around 35$ hardware total cost and 5-10W energy consumption  
+- ARMBian over Android Box X88Pro10 and TP-Link TL-WN722N USB dongle. Around 40$ hardware total cost and 5-10W energy consumption  
+- Ubuntu over PC and TP-Link TL-WN722N USB dongle  
 
 ## Dependencies
 
@@ -36,13 +36,13 @@ Then create a wifi interface in monitor mode:
 
 ## Running
 
-If the wifi interface in monitor mode is wlan0, then run:
-sudo ./wmon wlan0
+If the wifi interface in monitor mode is wlan0, then run:  
+sudo ./wmon wlan0  
 
 ## Additional tools
 
-one wifi device can only listen one wifi channel at the same time, to maximize the amount of information received you can run the script: change-channel.sh
-It changes the wifi channel every second
+one wifi device can only listen one wifi channel at the same time, to maximize the amount of information received you can run the script: change-channel.sh  
+It changes the wifi channel every second  
 e.g: sudo ./change-channel.sh wlan0
 
 ## Credits
