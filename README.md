@@ -4,6 +4,16 @@
 
 wmon captures mac address and RSSI (signal strength) of wifi packets received by a wifi device in monitor mode (passively, it doesnt send data of any kind).
 
+## How it works
+
+wmon capture whole wifi network packets, i.e: this software doesnt capture only probe requests, it captures everything. Even in encrypted wifi networks, MAC address is never encrypted. wmon saves only the higher RSSI each minute for every MAC. So if the device keeps sending data through wifi, you can monitor when the device enters and exit in the coverage range, and with the signal strength every minute.
+
+## Uses
+
+- indoor position tracking: Running wmon over enough capture devices you can track RSSI of a MAC address in every position and know how it's moving.  
+- time control of employees: Control when a MAC enters and exit in the coverage range.  
+- customers counting in retail: Control the number of different MAC addresses that enter in the coverage range every moment.  
+
 ## Hardware requirements
 
 It needs a wifi device supporting monitor mode in aircrack-ng over linux
