@@ -57,6 +57,6 @@ e.g: sudo ./change-channel.sh wlan0
 
 ## Credits
 
-Created by fdd  
-Send feedback and questions to fdd4776s@gmail.com  
+Created by fdd4s  
+Send feedback and questions to fc1471789@gmail.com  
 All files are public domain https://unlicense.org/
