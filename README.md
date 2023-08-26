@@ -1,6 +1,6 @@
 # Wifi Analytics Monitor: an opensource wifi presence analytics monitor
 
-## What does
+## What it does
 
 wmon captures mac address and RSSI (signal strength) of wifi packets received by a wifi device in monitor mode (passively, it doesnt send data of any kind).
 
