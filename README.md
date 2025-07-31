@@ -12,7 +12,14 @@ wmon capture whole wifi network packets, i.e: this software doesnt capture only 
 
 - indoor position tracking: Running wmon over enough capture devices you can track RSSI of a MAC address in every position and know how it's moving.  
 - time control of employees: Control when a MAC enters and exit in the coverage range.  
-- customers counting in retail: Control the number of different MAC addresses that enter in the coverage range every moment.  
+- customers counting in retail: Control the number of different MAC addresses that enter in the coverage range every moment.
+
+## Recommended hardware
+
+- X88 Pro 10 Android Box compatible with ARMBian https://s.click.aliexpress.com/e/_olSWtLz (Rk3318 Armbian image)
+- Wifi N 2.4 GHz USB dongle with RPSMA external antenna connector https://s.click.aliexpress.com/e/_okFfSkb "USB Wifi Adapter 150Mbps 2.4 ghz Antenna USB 802.11n/g/b Ethernet Wi-fi dongle RTL8188 Wireless Network Card for PC Windows" Compatible with last ARMBian version.
+- 2.4 GHz Yagi Antenna with SMA connector with Pigtail RPSMA to SMA connector https://s.click.aliexpress.com/e/_oDmNKmr "16dBi 2.4GHz WIFI Yagi Directional Antenna Enhanced Signal Notebook Desktop PC Computer USB Wireless Network Card PCIE Adapter"
+- SMA to RPSMA connector to avoid the use of Pigtail in the previous antenna https://s.click.aliexpress.com/e/_oCpHgcL
 
 ## Hardware requirements
 
@@ -54,6 +61,11 @@ sudo ./wmon wlan0
 one wifi device can only listen one wifi channel at the same time, to maximize the amount of information received you can run the script: change-channel.sh  
 It changes the wifi channel every second  
 e.g: sudo ./change-channel.sh wlan0
+
+## Related projects
+
+https://github.com/fdd4s/FH8616_CCTV_Security_Camera
+https://github.com/armbian/community/releases/ Use "Rk3318" Bookworm minimal image to run this software over X88 Pro 10 Android Box.
 
 ## Credits
 
