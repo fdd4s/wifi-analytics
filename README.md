@@ -20,7 +20,7 @@ wmon capture whole wifi network packets, i.e: this software doesnt capture only 
 - Wifi N 2.4 GHz USB dongle with RPSMA external antenna connector https://s.click.aliexpress.com/e/_okFfSkb "USB Wifi Adapter 150Mbps 2.4 ghz Antenna USB 802.11n/g/b Ethernet Wi-fi dongle RTL8188 Wireless Network Card for PC Windows" Compatible with last ARMBian version.  
 - 2.4 GHz Yagi Antenna with SMA connector with antenna pigtail RPSMA to SMA connector https://s.click.aliexpress.com/e/_oDmNKmr "16dBi 2.4GHz WIFI Yagi Directional Antenna Enhanced Signal Notebook Desktop PC Computer USB Wireless Network Card PCIE Adapter"  
 - SMA to RPSMA connector to avoid the use of pigtail in the previous antenna https://s.click.aliexpress.com/e/_oCpHgcL  
-- USB Extension cable for Wifi N USB Dongle https://s.click.aliexpress.com/e/_onG80rP it's always better to use USB extension cable than a Pigtail antenna extension cable because pigtals always have some degree of RF signal loss.  
+- USB Extension cable for Wifi N USB Dongle https://s.click.aliexpress.com/e/_onG80rP it's always better to use USB extension cable than a pigtail antenna extension cable because pigtails always have some degree of RF signal loss.  
 
 ## Hardware requirements
 
