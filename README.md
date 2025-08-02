@@ -2,11 +2,11 @@
 
 ## What it does
 
-wmon captures mac address and RSSI (signal strength) of wifi packets received by a wifi device in monitor mode (passively, it doesnt send data of any kind).
+wmon (Wifi MONitor) captures mac address and RSSI (signal strength) of wifi packets received by a wifi device in monitor mode (passively, it doesnt send data of any kind).
 
 ## How it works
 
-wmon capture whole wifi network packets, i.e: this software doesnt capture only probe requests, it captures everything. Even in encrypted wifi networks, MAC address is never encrypted. wmon saves only the higher RSSI each minute for every MAC. So if the device keeps sending data through wifi, you can monitor when the device enters and exit in the coverage range, and with the signal strength every minute.
+wmon capture whole wifi network packets, i.e: this software doesnt capture only probe requests, it captures everything. Even in encrypted wifi networks, MAC address is never encrypted. wmon saves only the higher RSSI each minute for every MAC. So if the device keeps sending data through wifi, you can monitor when the device enters and exit in the coverage range, with the signal strength every minute.
 
 ## Uses
 
@@ -18,8 +18,9 @@ wmon capture whole wifi network packets, i.e: this software doesnt capture only 
 
 - X88 Pro 10 Android Box compatible with ARMBian https://s.click.aliexpress.com/e/_olSWtLz (Rk3318 Armbian image)  
 - Wifi N 2.4 GHz USB dongle with RPSMA external antenna connector https://s.click.aliexpress.com/e/_okFfSkb "USB Wifi Adapter 150Mbps 2.4 ghz Antenna USB 802.11n/g/b Ethernet Wi-fi dongle RTL8188 Wireless Network Card for PC Windows" Compatible with last ARMBian version.  
-- 2.4 GHz Yagi Antenna with SMA connector with Pigtail RPSMA to SMA connector https://s.click.aliexpress.com/e/_oDmNKmr "16dBi 2.4GHz WIFI Yagi Directional Antenna Enhanced Signal Notebook Desktop PC Computer USB Wireless Network Card PCIE Adapter"  
-- SMA to RPSMA connector to avoid the use of Pigtail in the previous antenna https://s.click.aliexpress.com/e/_oCpHgcL  
+- 2.4 GHz Yagi Antenna with SMA connector with antenna pigtail RPSMA to SMA connector https://s.click.aliexpress.com/e/_oDmNKmr "16dBi 2.4GHz WIFI Yagi Directional Antenna Enhanced Signal Notebook Desktop PC Computer USB Wireless Network Card PCIE Adapter"  
+- SMA to RPSMA connector to avoid the use of pigtail in the previous antenna https://s.click.aliexpress.com/e/_oCpHgcL  
+- USB Extension cable for Wifi N USB Dongle https://s.click.aliexpress.com/e/_onG80rP it's always better to use USB extension cable than a Pigtail antenna extension cable because pigtals always have some degree of RF signal loss.  
 
 ## Hardware requirements
 
