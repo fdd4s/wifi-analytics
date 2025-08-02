@@ -12,7 +12,7 @@ wmon capture whole wifi network packets, i.e: this software doesnt capture only 
 
 - indoor position tracking: Running wmon over enough capture devices you can track RSSI of a MAC address in every position and know how it's moving.  
 - time control of employees: Control when a MAC enters and exit in the coverage range.  
-- customers counting in retail and marketing campaigns: Know how many people (different MAC addresses) enter in the coverage range every moment.
+- people counting in retail and marketing campaigns: Know how many people (different MAC addresses) enter in the coverage range every moment.
 
 ## Recommended hardware
 
